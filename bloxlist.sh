@@ -8,7 +8,7 @@
 #   will obviously need work for ipv6
 #   perhaps expand into more robust application with config and SQLite3 goings-on
 
-# Let's log send our output to screen and log; just log if non-interactive
+# Let's send our output to screen and log; just log if non-interactive
 # cron, for example runs in a non-interactive shell 
 # therefore usually no prompt is defined 
 exec 3>&1 4>&2
