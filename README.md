@@ -19,7 +19,7 @@ Early research indicates that these may be older versions of OpenVZ.
 
 
 # References
-[insert link to post once it has been posted  http://j0rg3.com/](http://j0rg3.com/)
+link to post, once it has been posted:  [http://j0rg3.com/](http://j0rg3.com/)
 
 
 
