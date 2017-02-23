@@ -8,18 +8,6 @@
 #   will obviously need work for ipv6
 #   perhaps expand into more robust application with config and SQLite3 goings-on
 
-# Let's send our output to screen and log; just log if non-interactive
-# cron, for example runs in a non-interactive shell 
-# therefore usually no prompt is defined 
-exec 3>&1 4>&2
-trap 'exec 2>&4 1>&3' 0 1 2 3
-if [ -z "$PS1" ]; then
-   exec 1>/var/log/bloxlist.log 2>&1
-else
-   exec 1|tee /var/log/bloxlist.log 2>&1
-fi
-
-
 set -uo pipefail
 
 for arg in "$@"
