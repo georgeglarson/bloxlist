@@ -12,10 +12,14 @@ The purpose of this project is to make a quick and easy solution to rapidly hard
 The presence of 'ipset' and 'iptables' is (mostly) assumed.
 
 # Notes
-Hi mom!  (Just kidding.  Mum don't use no Github.)
+While testing this on VPSs, I'm finding that some report 'ipset v6.23: Kernel error received: Operation not permitted'.
+Early research indicates that these may be older versions of OpenVZ.
+[  https://bugs.openvz.org/browse/OVZ-4116  ]
+[  https://github.com/dannysheehan/iptables-ipset-blacklists/issues/1  ]
+
 
 # References
-[http://j0rg3.com/](insert link to post once it has been posted http://j0rg3.com/)
+[insert link to post once it has been posted  http://j0rg3.com/](http://j0rg3.com/)
 
 
 
